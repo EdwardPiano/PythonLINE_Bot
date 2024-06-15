@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Request, Header, HTTPException
+from fastapi import APIRouter, Request, Header
 from line_handlers import handle_line_webhook
 
 line_router = APIRouter()
